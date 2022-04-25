@@ -79,6 +79,8 @@ header a{
 header a:hover{
     color:blueviolet;
 }
+
+
 #botoncontact .carta:hover{
     cursor: pointer
 
@@ -97,7 +99,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: rgb(255, 255, 255);
+    color: rgb(243, 231, 231);
 
 }
 #nuevos-lanzamientos{
