@@ -79,6 +79,10 @@ header a{
 header a:hover{
     color:blueviolet;
 }
+#botoncontact .carta:hover{
+    cursor: pointer
+
+}
 #hero{
     
     align-items: center;
