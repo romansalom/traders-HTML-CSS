@@ -29,8 +29,12 @@ body{
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
-    color: rgb(16, 16, 16);
+    color: rgb(3, 2, 2);
     background-color: rgb(131, 104, 151);
+}
+
+.botoncontact a{
+    color: #333;
 }
 
 .botoncontact:hover{
@@ -95,7 +99,7 @@ header a:hover{
     background-image: linear-gradient(
         0deg,rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) ,url("/media/screen-7.png");
+    ) ,url("/media/Nike-art1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
