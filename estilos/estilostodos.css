@@ -69,8 +69,8 @@
 }
 
 #nuevos-lanzamientos {
-  background-color: #1e1e1e;
-  color: black;
+  background-color: #242323;
+  color: #e6e1e1;
   text-align: center;
   padding: 20px;
 }
@@ -85,8 +85,19 @@
   display: flex;
 }
 
-#nuevos-lanzamientos h2 {
-  color: white;
+#nuevos-lanzamientos h5 {
+  color: black;
+}
+
+#nuevos-lanzamientos p {
+  color: black;
+}
+
+.carta:hover {
+  cursor: pointer;
+  background-color: #561c8d;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
 }
 
 #novedades {
@@ -113,6 +124,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#novedades .h2 {
+  background-color: #fff;
 }
 
 footer {

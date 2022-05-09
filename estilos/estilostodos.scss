@@ -59,8 +59,8 @@
 }
 
 #nuevos-lanzamientos {
-    background-color: rgb(30, 30, 30);
-    color: rgb(0, 0, 0);
+    background-color: rgb(36, 35, 35);
+    color: rgb(230, 225, 225);
     text-align: center;
     padding: 20px;
 
@@ -72,12 +72,23 @@
     .card {
         display: flex;
     }
+    h5{
+        color: black;
+    }
+    p{
+        color: black;
+    }
 
-    h2 {
-        color: white;
+    
 
     }
-}
+    .carta:hover{
+        cursor: pointer;
+        background-color: rgb(86, 28, 141);
+        transform: translateY(-15px);
+        
+    }
+
 
 #novedades {
     background-color: rgb(30, 30, 30);
@@ -96,6 +107,9 @@
         float: none;
         justify-content: center;
         align-items: center;
+    }
+    .h2{
+        background-color: #fff;
     }
 }
 
