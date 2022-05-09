@@ -8,8 +8,7 @@
 #hero {
     justify-content: center;
     height: 90vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/media/Nike-art1.jpg");
+    background-image: url("/media/Nike-art1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -20,14 +19,14 @@
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        color: rgb(222, 168, 86);
+        color: rgb(217, 217, 15);
         font-size: 50px;
     }
 
     .pd {
         text-align: center;
         flex-direction: column;
-        color: blanchedalmond;
+        color: rgb(41, 28, 9);
         font-size: 25px;
         padding: 5px;
 
@@ -58,6 +57,9 @@
 
 }
 
+
+
+
 #nuevos-lanzamientos {
     background-color: rgb(36, 35, 35);
     color: rgb(230, 225, 225);
@@ -67,27 +69,31 @@
 
     .carta {
         padding: 10px;
+        
     }
 
     .card {
         display: flex;
     }
-    h5{
-        color: black;
-    }
-    p{
+
+    h5 {
         color: black;
     }
 
-    
+    p {
+        color: black;
+    }
 
-    }
-    .carta:hover{
-        cursor: pointer;
-        background-color: rgb(86, 28, 141);
-        transform: translateY(-15px);
-        
-    }
+
+
+}
+
+.carta:hover {
+    cursor: pointer;
+    background-color: rgb(86, 28, 141);
+    transform: translateY(-15px);
+
+}
 
 
 #novedades {
@@ -108,7 +114,8 @@
         justify-content: center;
         align-items: center;
     }
-    .h2{
+
+    .h2 {
         background-color: #fff;
     }
 }
