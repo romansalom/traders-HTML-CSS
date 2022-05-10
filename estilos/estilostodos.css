@@ -6,12 +6,8 @@
 }
 
 #hero {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 90vh;
+  height: cover;
   background-image: url("/media/Nike-art1.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   -webkit-box-sizing: content-box;
