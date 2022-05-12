@@ -126,7 +126,7 @@
 }
 
 footer {
-  height: 100px;
+  height: auto;
   width: 100%;
   background-color: black;
   text-align: center;
