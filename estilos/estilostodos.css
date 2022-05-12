@@ -6,7 +6,7 @@
 }
 
 #hero {
-  height: cover;
+  height: 100vh;
   background-image: url("/media/Nike-art1.jpg");
   background-size: cover;
   background-position: center center;
@@ -126,7 +126,7 @@
 }
 
 footer {
-  height: auto;
+  height: 100px;
   width: 100%;
   background-color: black;
   text-align: center;

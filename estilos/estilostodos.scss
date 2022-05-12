@@ -6,7 +6,7 @@
 }
 
 #hero {
-    height:100vh;
+    height: 100vh;
     background-image: url("/media/Nike-art1.jpg");
     background-size: cover;
     background-position: center center;
@@ -67,7 +67,7 @@
 
     .carta {
         padding: 10px;
-        
+
     }
 
     .card {
@@ -118,27 +118,4 @@
     }
 }
 
-
-
-footer {
-    height: auto;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px;
-
-    p {
-        font-size: 14px;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: #fff;
-    }
-
-    i {
-        font-size: 20px;
-        color: #fff;
-        letter-spacing: 15px;
-
-    }
-}
+@import "footer";
