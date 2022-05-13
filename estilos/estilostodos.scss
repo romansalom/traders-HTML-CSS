@@ -6,9 +6,9 @@
 }
 
 #hero {
-    height: 100vh;
-    background-image: url("/media/Nike-art1.jpg");
-    background-size: cover;
+    height: 200vh;
+    background-color: black;
+    background-size:contain;
     background-position: center center;
     box-sizing: content-box;
 
@@ -17,14 +17,14 @@
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        color: rgb(217, 217, 15);
+        color: rgb(160, 85, 14);
         font-size: 50px;
     }
 
     .pd {
         text-align: center;
         flex-direction: column;
-        color: rgb(41, 28, 9);
+        color: rgb(247, 246, 245);
         font-size: 25px;
         padding: 5px;
 
@@ -59,7 +59,7 @@
 
 
 #nuevos-lanzamientos {
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(230, 225, 225);
     color: rgb(230, 225, 225);
     text-align: center;
     padding: 20px;
@@ -67,6 +67,7 @@
 
     .carta {
         padding: 10px;
+        margin-top: 20px;
 
     }
 
@@ -80,6 +81,10 @@
 
     p {
         color: black;
+    }
+    h2{
+        background-color: rgb(220, 210, 210);
+        color: rgb(0, 0, 0);
     }
 
 
@@ -119,3 +124,4 @@
 }
 
 @import "footer";
+@import "navbar"
