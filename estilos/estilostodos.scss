@@ -83,8 +83,9 @@
         color: black;
     }
     h2{
-        background-color: rgb(220, 210, 210);
+        background-color: rgba(67, 55, 55, 0.731);
         color: rgb(0, 0, 0);
+        text-transform: uppercase;
     }
 
 
@@ -100,7 +101,7 @@
 
 
 #novedades {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(220, 210, 210);
     color: white;
     text-align: center;
 
@@ -118,8 +119,9 @@
         align-items: center;
     }
 
-    .h2 {
-        background-color: #fff;
+    .title2 {
+        background-color: rgba(67, 55, 55, 0.731);
+        color: black
     }
 }
 

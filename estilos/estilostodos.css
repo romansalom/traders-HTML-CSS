@@ -90,8 +90,9 @@
 }
 
 #nuevos-lanzamientos h2 {
-  background-color: #dcd2d2;
+  background-color: rgba(67, 55, 55, 0.731);
   color: black;
+  text-transform: uppercase;
 }
 
 .carta:hover {
@@ -102,7 +103,7 @@
 }
 
 #novedades {
-  background-color: #1e1e1e;
+  background-color: #dcd2d2;
   color: white;
   text-align: center;
 }
@@ -127,8 +128,9 @@
           align-items: center;
 }
 
-#novedades .h2 {
-  background-color: #fff;
+#novedades .title2 {
+  background-color: rgba(67, 55, 55, 0.731);
+  color: black;
 }
 
 footer {
