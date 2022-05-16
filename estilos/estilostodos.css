@@ -59,7 +59,7 @@
           justify-content: center;
 }
 
-#hero a {
+#hero .botton a {
   color: black;
 }
 
@@ -136,26 +136,117 @@
   color: black;
 }
 
-footer {
-  height: auto;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
   background-color: black;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h6 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h6::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
   text-align: center;
-  padding: 20px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-footer p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #fff;
+.footer-col .social-links i:hover {
+  color: #24262b;
+  background-color: #ffff;
 }
 
-footer i {
-  font-size: 20px;
-  color: #fff;
-  letter-spacing: 15px;
+.footer li {
+  color: white;
+}
+
+/*resposive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
 
 .navbar {
