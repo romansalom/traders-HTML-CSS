@@ -228,29 +228,7 @@
     background-color: #baa67b;
     border: 1px dashed yellow;
   }
-  .contenedor {
-    border: 3px solid white;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[7];
-        grid-template-columns: repeat(7, 1fr);
-    grid-column-gap: 2%;
-    grid-row-gap: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+  
 }
 
 .h2a {
