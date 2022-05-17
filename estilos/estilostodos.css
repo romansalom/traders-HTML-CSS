@@ -31,8 +31,15 @@ h6 {
   font-size: 5px;
 }
 
+@media (max-width: 450px) {
+  #hero .pd {
+    font-size: 10px;
+  }
+}
+
 #hero {
-  height: 200vh;
+  height: cover;
+  width: cover;
   background-color: rgba(12, 12, 12, 0.548);
   background-size: contain;
   background-position: center center;
@@ -259,7 +266,7 @@ form fieldset {
   border: none;
   border-radius: 2rem;
   height: 4rem;
-  color: aliceblue;
+  color: black;
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
