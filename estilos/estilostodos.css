@@ -12,11 +12,11 @@ h1 {
 h2 {
   font-size: 28px;
   color: #333;
-  background-color: rgba(255, 255, 255, 0.158);
+  background-color: rgba(51, 51, 51, 0.199);
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h4 {
@@ -125,7 +125,7 @@ h6 {
   text-align: center;
 }
 
-#novedades .container {
+#novedades .contsiner {
   padding: 30px 12px;
 }
 
@@ -143,11 +143,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#novedades .title2 {
-  background-color: rgba(67, 55, 55, 0.731);
-  color: black;
 }
 
 @media (min-width: 250px) {
@@ -189,12 +184,10 @@ h6 {
     background-color: #baa67b;
     border: 1px dashed yellow;
   }
-  .contenedor {
+  .titulos {
     border: 3px solid white;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[7];
-        grid-template-columns: repeat(7, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 10px;
     display: -webkit-box;
@@ -214,14 +207,6 @@ h6 {
   }
 }
 
-#ubic {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  background-color: rgba(67, 70, 65, 0.795);
-}
-
 .forma {
   background-color: rgba(225, 255, 255, 0.1);
   border-radius: 2rem;
@@ -232,26 +217,16 @@ h6 {
   margin: 2rem 0 0 0;
 }
 
-legend {
-  text-align: center;
-  color: #020202;
-  font-size: 2rem;
-  padding: 1rem;
-  padding-top: 2rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-form fieldset {
+.forma fieldset {
   border: none;
   padding: 2rem;
 }
 
-.campo {
+.forma .campo {
   margin-bottom: 1rem;
 }
 
-.campo label {
+.forma label {
   color: #010101;
   font-weight: bold;
   margin-bottom: .5rem;
@@ -260,7 +235,7 @@ form fieldset {
   display: block;
 }
 
-.campo input {
+.forma input {
   background-color: rgba(62, 148, 148, 0.15);
   width: 100%;
   border: none;
@@ -270,6 +245,48 @@ form fieldset {
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
+}
+
+.forma .botona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forma .botonPrinciapal {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  width: 40%;
+  color: aliceblue;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin: 2rem 0 0 0;
+  height: 3rem;
+  font-weight: 700;
+  background-color: #4343b4;
+}
+
+.forma .nombre {
+  font-size: 15px;
+}
+
+.forma .email {
+  font-size: 15px;
+}
+
+.forma .telefono {
+  font-size: 15px;
+}
+
+.forma .contrasena {
+  font-size: 15px;
 }
 
 input::-webkit-input-placeholder {
@@ -296,32 +313,6 @@ input:hover {
   background-color: rgba(238, 229, 229, 0.34);
 }
 
-.botona {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.botonPrinciapal {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: none;
-  width: 40%;
-  color: aliceblue;
-  font-size: 1rem;
-  border-radius: 2rem;
-  margin: 2rem 0 0 0;
-  height: 3rem;
-  font-weight: 700;
-  background-color: #4343b4;
-}
-
 @media (min-width: 768px) {
   input::-webkit-input-placeholder {
     color: rgba(6, 5, 5, 0.242);
@@ -343,11 +334,6 @@ input:hover {
     width: 90%;
     height: 3rem;
   }
-}
-
-.aa {
-  text-decoration: none;
-  color: white;
 }
 
 .botonPrinciapal:hover {
@@ -377,7 +363,9 @@ form::before {
   border-radius: 7px;
 }
 
-input, select, .textareaa {
+.forme input,
+.forme select,
+.forme .textareaa {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -388,7 +376,7 @@ input, select, .textareaa {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.pe {
+.forme .pe {
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-box-sizing: border-boxS;
@@ -396,13 +384,13 @@ input, select, .textareaa {
   color: #020202;
 }
 
-.textareaa {
+.forme .textareaa {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
 }
 
-#buttone {
+.forme #buttone {
   background-color: #6725ec;
   color: #fff;
   padding: 20px;
@@ -439,32 +427,25 @@ input, select, .textareaa {
   }
 }
 
+.card {
+  margin: 10px 0;
+}
+
+@media (max-width: 380px) {
+  .conteiner {
+    width: 100%;
+  }
+}
+
 iframe {
-  border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   font-weight: bold;
   margin-right: auto;
   margin-left: auto;
-}
-
-.section2 {
-  width: 100%;
-  background-color: rgba(67, 70, 65, 0.795);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
+  float: none;
 }
 
 .card:hover {
@@ -476,45 +457,6 @@ iframe {
 
 .card {
   margin: 10px 0;
-}
-
-@media (max-width: 380px) {
-  .conteiner {
-    width: 100%;
-  }
-  #ubic {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    float: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #333;
-  }
-  iframe {
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    margin-right: auto;
-    margin-left: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    float: none;
-  }
-  .pf {
-    font-size: 0.5em;
-  }
-  .ulf {
-    list-style: none;
-  }
-  .lif {
-    font-size: 0.5em;
-  }
 }
 
 * {
