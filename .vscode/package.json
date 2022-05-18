@@ -1,7 +1,7 @@
 {
-  "name": "Traders Market",
+  "name": "traders-market",
   "version": "1.0.0",
-  "description": "",
+  "description": " Traders Market es una pagina web que cuenta con una base de datos que facilita a sus usuarios la compra de sus zapatillas mas deseadas. Su constantes actualizaciones permiten que sus usuarios puedan acceder a los ultimos lanzamientos y lanzamientos futuros de sus marcas favoritas. A su vez incorpora la funcion de “trading” de zapatillas mediante la cual los usuarios van a poder intercambiar zapatillas entre si, con un previo control de originalidad realizada por profesionales.",
   "main": "index.html",
   "scripts":{
     "test": "echo \"Error: no test specified\" && exit 1"
