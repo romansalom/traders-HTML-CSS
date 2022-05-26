@@ -59,10 +59,10 @@ h6 {
 }
 
 #hero .botoncontact {
-  font-size: 1.5em;
+  font-size: 1.7rem;
   font-weight: bold;
-  padding: 10px 25px;
-  border-radius: 15px;
+  padding: 10px 15px;
+  border-radius: 25px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
@@ -81,6 +81,12 @@ h6 {
 
 #hero .botton a {
   color: black;
+}
+
+#hero .botoncontact:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
 }
 
 #nuevos-lanzamientos {

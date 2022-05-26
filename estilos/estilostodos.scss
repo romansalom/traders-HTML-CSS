@@ -84,14 +84,15 @@ h6 {
     }
 
     .botoncontact {
-        font-size: 1.5em;
+        font-size: 1.7rem;
         font-weight: bold;
-        padding: 10px 25px;
-        border-radius: 15px;
+        padding: 10px 15px;
+        border-radius: 25px;
         border: 1px solid rgba(0, 0, 0, 0.5);
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         color: rgb(3, 2, 2);
         background-color: rgb(181, 143, 99);
+        
 
     }
 
@@ -104,8 +105,14 @@ h6 {
     .botton a {
         color: black;
     }
+    .botoncontact:hover{
+        cursor: pointer;
+        transform: translateY(-15px);
+    }
 
-}
+    }
+
+
 
 
 
