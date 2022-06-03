@@ -12,7 +12,7 @@ h1 {
 h2 {
   font-size: 28px;
   color: #333;
-  background-color: rgba(51, 51, 51, 0.199);
+  background-color: rgba(51, 51, 51, 0.037);
 }
 
 h3 {
@@ -246,7 +246,7 @@ h6 {
   width: 100%;
   border: none;
   border-radius: 2rem;
-  height: 4rem;
+  height: 3rem;
   color: black;
   text-align: center;
   font-weight: 900;
@@ -344,7 +344,7 @@ input:hover {
 
 .botonPrinciapal:hover {
   cursor: pointer;
-  color: blueviolet;
+  color: rgba(6, 0, 12, 0.973);
 }
 
 form::before {
